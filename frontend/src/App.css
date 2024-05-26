@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 1400px;
+}
+.w-100{
+    width: 100%;
+}
+a{
+    text-decoration: none !important;
+
+}
+
+@media (max-width:1400px){
+    .content{
+        width: 100%;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}

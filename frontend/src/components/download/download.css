@@ -1,0 +1,9 @@
+.download{
+    height: 30vh;
+}
+
+.download-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

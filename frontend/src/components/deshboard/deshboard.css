@@ -1,0 +1,271 @@
+
+
+
+.deshboard{
+  height: auto;
+  /* height: 30rem; */
+  margin: 1rem 0;
+}
+.deshboard .deshboard-content{
+    background-color: #94969D;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deshboard-content .deshboard-content-item{
+    width: 100%;
+    height: 100%;
+    background-color: #F1F5F9;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 10% 89%;
+    gap: 1%;
+}
+
+
+.deshboard-content-item .deshboard-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.deshboard-item .deshboard-item-title{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.deshboard-item-title .deshboard-item-title-left span{
+ color:#64696e;
+ font-weight: bold;
+}
+.deshboard-item-title .deshboard-item-title-right{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.deshboard-item-title-right .deshboard-item-title-right-1 input{
+    width: 12rem;
+    padding: 0.4rem;
+    outline: none;
+    background-color: #64696e;
+    border: none;
+    border-radius: 4px;
+    color: white !important;
+    font-size: 14px;
+}
+.deshboard-item-title-right .deshboard-item-title-right-1 input::placeholder{
+    color: #94969D !important;
+}
+.deshboard-item-title-right .deshboard-item-title-right-2 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.deshboard-item .deshboard-item-value{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.deshboard-item-value .deshboard-item-value-1{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.deshboard-item-value-1 .deshboard-item-value-1-1{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.deshboard-card{
+    width: 100%;
+    height: 7rem;
+    /* border: 1px saddlebrown solid; */
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.deshboard-card .deshboard-card-1{
+    display: flex;
+    gap: 0.5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.deshboard-card .deshboard-card-1 span img{
+    width: 2.5rem;
+}
+.deshboard-card .deshboard-card-1 span{
+    color: white;
+    font-size: 14px;
+}
+.deshboard-card .deshboard-card-2 span{
+    /* color: #64696e; */
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.deshboard-item-value-1 .deshboard-item-value-1-2{
+    width: 100%;
+    height: auto;
+    background-color: #64696E;
+    border-radius: 8px;
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.deshboard-item-value-1-2 .deshboard-item-value-1-2-title{
+    display: flex;
+    justify-content: space-between;
+}
+.deshboard-item-value-1-2-title div:nth-child(1) span{
+    font-weight: bold;
+    color: white;
+}
+.deshboard-item-value-1-2-title div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    /* border: 1px solid red; */
+    padding: 0.2rem;
+    background-color: #53575c;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.deshboard-item-value-1-2-title div:nth-child(2) span{
+    /* font-weight: bold; */
+    color: white;
+    font-size: 14px;
+}
+.deshboard-item-value-1-2-title div:nth-child(2) i{
+    color: white;
+    font-size: 14px;
+}
+.deshboard-item-value-1 .deshboard-item-value-1-3{
+    width: 100%;
+    height: 15rem;
+    background-color: #64696E;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+.deshboard-item-value-1-3 .deshboard-item-value-1-3-title{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.deshboard-item-value-1-3-title span:nth-child(1){
+    font-weight: bold;
+}
+.deshboard-item-value-1-3-title span:nth-child(2){
+    padding: 0.2rem;
+    border-radius: 4px;
+    background-color: #53575C;
+    font-size: 14px;
+}
+
+.deshboard-item-value-1-3 .deshboard-item-value-1-3-table{
+    margin-top: 1rem;
+}
+
+
+.deshboard-item-value .deshboard-item-value-2{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+
+
+}
+
+.deshboard-item-value-2 .deshboard-item-value-2-1{
+    width: 100%;
+    height: 25rem;
+    background-color: #64696E;
+    margin-top: 1rem;
+    border-radius: 8px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 1rem 0;
+}
+.deshboard-item-value-2 .deshboard-item-value-2-2{
+    width: 100%;
+    height: 27.5rem;
+    background-color: #64696E;
+    /* margin-top: 1rem; */
+    border-radius: 8px;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.deshboard-item-value-2-2 .deshboard-item-value-2-2-title{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.deshboard-item-value-2-2-title span{
+    font-weight: bold;
+    color: white;
+}
+.deshboard-item-value-2-2 .deshboard-item-value-2-2-value{
+    /* border: 1px solid red; */
+    max-height: 90%;
+    overflow: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.deshboard-item-value-2-2-value .deshboard-item-value-2-2-value-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.3rem;
+    /* border: 1px saddlebrown solid; */
+    align-items: center;
+    cursor: pointer;
+}
+.deshboard-item-value-2-2-value .deshboard-item-value-2-2-value-item:hover{
+    background-color: #94969D;
+    border-radius: 4px;
+}
+.deshboard-item-value-2-2-value-item .deshboard-item-value-2-2-value-item-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.deshboard-item-value-2-2-value-item-1 img{
+ width: 1.5rem;
+ height: 1.5rem;
+ border-radius: 2px;
+}
+.deshboard-item-value-2-2-value-item-1 span{
+    font-size: 14px;
+    color: white;
+}
+
+.deshboard-item-value-2-2-value-item .deshboard-item-value-2-2-value-item-2 span{
+    font-size: 14px;
+    color: white;
+}

@@ -1,0 +1,207 @@
+.top-footer{
+    background-color: rgb(67, 157, 223) !important;
+    padding: 2.8rem 0px;
+    box-sizing: inherit;
+}
+.top-footer .top-footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-footer-content .top-footer-content-1,.top-footer-content .top-footer-content-2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: .5rem;
+}
+.top-footer-content .top-footer-content-1 div:nth-child(1){
+  display: flex;
+  align-items: center;
+}
+.top-footer-content .top-footer-content-1 div i{
+    font-size: 3rem;
+    color: white !important;
+}
+.top-footer-content .top-footer-content-1 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
+}
+.top-footer-content .top-footer-content-1 div:nth-child(2) span:nth-child(1){
+    color: white ;
+    font-size: 1.2rem !important;
+    font-style: italic;
+}
+.top-footer-content .top-footer-content-1 div:nth-child(2) span:nth-child(2){
+    color: white ;
+    font-size: 14px !important;
+    font-style: italic;
+}
+
+.top-footer-content .top-footer-content-2 div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
+}
+.top-footer-content .top-footer-content-2 div:nth-child(1) span:nth-child(1){
+    color: white ;
+    font-size: 1.2rem !important;
+    font-style: italic;
+}
+.top-footer-content .top-footer-content-2 div:nth-child(1) span:nth-child(2){
+    color: white ;
+    font-size: 14px !important;
+    font-style: italic;
+}
+
+.top-footer-content .top-footer-content-2 div:nth-child(2) a{
+  padding: .7rem 1rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white !important;
+  font-size: 14px;
+}
+.top-footer-content .top-footer-content-2 div:nth-child(2) a:hover{
+    background-color: #1D63AF !important;
+}
+
+@media (max-width:900px){
+    .top-footer .top-footer-content{
+        display: flex;
+        flex-direction: column !important;
+        gap: 2.5rem;
+    }
+}
+
+/* .............................main-footer................. */
+
+.main-footer{
+    height: auto;
+    padding: 2rem 0;
+    background-color: #F8F8F8;
+}
+.main-footer .main-footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 2rem;
+}
+.main-footer-content div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.main-footer-content div:nth-child(1) .item-1 span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+.main-footer-content div:nth-child(1) .item-1 p{
+    font-size: 13px;
+    color: #333333;
+}
+.main-footer-content div:nth-child(1) .item-1 h1{
+    font-size: 18px;
+    color: #333333;
+}
+.main-footer-content div:nth-child(1) .item-2 p{
+    font-size: 13px;
+    color: #666666;
+    padding: 0.5rem 0;
+}
+
+.main-footer-content div:nth-child(1) .item-2 div{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.5rem;
+}
+.main-footer-content div:nth-child(1) .item-2 div a i{
+    font-size: 18px;
+    color: #666666;
+}
+.main-footer-content div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+}
+.main-footer-content div:nth-child(2) span{
+  padding-bottom: 1rem;
+  font-size: #333333;
+}
+
+.main-footer-content div:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.main-footer-content div:nth-child(2) div a{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-footer-content div:nth-child(2) div a:hover{
+    color: #1D63AF;
+}
+.main-footer-content div:nth-child(3){
+  display: flex;
+  flex-direction: column;
+}
+.main-footer-content div:nth-child(3) span{
+  padding-bottom: 1rem;
+  font-size: #333333;
+}
+
+.main-footer-content div:nth-child(3) div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.main-footer-content div:nth-child(3) div a{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-footer-content div:nth-child(3) div a:hover{
+    color: #1D63AF;
+}
+.main-footer-content div:nth-child(4){
+  display: flex;
+  flex-direction: column;
+}
+.main-footer-content div:nth-child(4) span{
+  padding-bottom: 1rem;
+  font-size: #333333;
+}
+
+.main-footer-content div:nth-child(4) div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.main-footer-content div:nth-child(4) div a{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-footer-content div:nth-child(4) div a:hover{
+    color: #1D63AF;
+}
+
+@media (max-width:770px) {
+    .main-footer .main-footer-content{
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+/* ............bottom footer............. */
+
+.bottom-footer{
+    padding: 3rem 0px;
+    color: rgb(102, 102, 102);
+}

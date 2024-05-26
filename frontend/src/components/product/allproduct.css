@@ -1,0 +1,108 @@
+/* All product */
+.allproduct{
+    margin: 1rem 0;
+    height: auto;
+}
+.allproduct .allproduct-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+
+.allproduct-content .allproduct-item{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.5rem;
+    
+}
+@media (max-width:1150px) {
+    .allproduct-content .allproduct-item{
+
+        grid-template-columns: repeat(5,1fr);
+
+    }
+}
+@media (max-width:950px) {
+    .allproduct-content .allproduct-item{
+
+        grid-template-columns: repeat(4,1fr);
+
+    }
+}
+@media (max-width:700px) {
+    .allproduct-content .allproduct-item{
+
+        grid-template-columns: repeat(3,1fr);
+
+    }
+}
+@media (max-width:450px) {
+    .allproduct-content .allproduct-item{
+
+        grid-template-columns: repeat(2,1fr);
+
+    }
+}
+.allproduct-filter{
+   position: fixed;
+   right:5%;
+   bottom: 30%;
+   /* top: 0; */
+   /* display: flex;
+   justify-content: center; */
+   /* align-items: center; */
+ 
+}
+.allproduct-filter i{
+    font-size: 14px;
+    color: #1F6EBB;
+    cursor: pointer;
+}
+
+.allproduct-filter .filter-item{
+    width: 10rem;
+    max-height: 11rem ;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* background-color: #1D63AF; */
+    padding: 1rem;
+    overflow: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.allproduct-filter .filter-item-display{
+    display: none;
+}
+.filter-item .filter-item-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.filter-item .filter-item-1 .filter-item-title{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    
+}
+.filter-item .filter-item-1 .filter-item-title span{
+    /* padding-bottom: 1rem; */
+    font-size: 14px;
+    font-weight: 500;
+    color: #424242;
+}
+.filter-item .filter-item-1 .filter-item-value{
+    display: flex;
+    gap: 0.5rem;
+    /* border: 1px solid rebeccapurple; */
+    padding: 0.2rem 0;
+}
+.filter-item .filter-item-1 .filter-item-value span{
+    font-size: 14px;
+    color: #424242;
+}
+.filter-item .filter-item-1 .filter-item-value  input{
+    cursor: pointer;
+}
